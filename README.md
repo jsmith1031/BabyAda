@@ -13,5 +13,7 @@ Email: [jsmith1031@radford.edu](mailto::jsmith1031@radford.edu)
 ## Sources
 * [Cup - LALR Parser Generator for Java](http://www2.cs.tum.edu/projects/cup/)
 * [JavaCC - Java Compiler Compiler](https://javacc.github.io/javacc/)
+
 ## Getting Started
 **(My personal notes for getting setup)**
+Install ANT if running outside Ecllipse
