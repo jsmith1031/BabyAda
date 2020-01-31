@@ -16,4 +16,14 @@ Email: [jsmith1031@radford.edu](mailto::jsmith1031@radford.edu)
 
 ## Getting Started
 **(My personal notes for getting setup)**
+
 Install ANT if running outside Ecllipse
+
+I personally used brew to install jflex-1.7.0 and javacc7.0.5 which may be required dependencies for this project now or later as this project evolves this semster
+
+To compile the '.cup' file:
+>java -jar java-cup-11b.jar -interface -parser Parser {cup file name}.cup
+
+This will create "Parser.java", and "sym.java".
+
+Now create a driver file that will call the flex file and parser file, the scanner file will read the input data and create a symbol table for hte input. That feels into the parser which creates the parse tree based on the grammar.
