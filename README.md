@@ -28,4 +28,12 @@ To compile the '.cup' file:
 
 This will create "Parser.java", and "sym.java".
 
-Now create a driver file that will call the flex file and parser file, the scanner file will read the input data and create a symbol table for hte input. That feels into the parser which creates the parse tree based on the grammar.
+Now create a driver.java file that will call the flex file and parser file, the scanner file will read the input data and create a symbol table for hte input. That feels into the parser which creates the parse tree based on the grammar.
+
+This driver file is trying to implement the Lexer.java file which is the rule list for how the symbol table is created
+
+Compile the lexer file with
+>jflex lexer.java
+
+Compile drive with
+>javac drive.java
