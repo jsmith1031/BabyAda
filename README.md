@@ -1,5 +1,5 @@
 # BabyAda
- Simple Ada Compiler made with Java
+ Simple Ada Compiler made with Java frameworks JFlex and Cup, this project was abandoned for AdaBaby which uses Coco
 
 # Scanner and Lexer
 
